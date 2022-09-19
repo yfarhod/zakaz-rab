@@ -5,7 +5,7 @@ import { NativeWindStyleSheet } from "nativewind";
 import { NavigationContainer } from "@react-navigation/native";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeScreen from "./screens/HomeScreen";
+import HomeScreen from "./screens/HomeScreen/HomeScreen";
 
 NativeWindStyleSheet.setOutput({
   default: "native",
