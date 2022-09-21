@@ -14,13 +14,17 @@ const HomeScreen = () => {
   return (
     <SafeAreaView>
       <Text className="text-blue-700 mt-5">
-        <View>
+        <View className="flex-row">
           <Image
             source={{
               uri: "https://cdn.britannica.com/47/7247-004-44F420D7/Flag-Uzbekistan.jpg",
             }}
             className="h-7 w-7 bg-gray-300 p-4 rounded-full"
           />
+          <View>
+            <Text>Заказать сейчас</Text>
+            <Text>Местоположение</Text>
+          </View>
         </View>
       </Text>
     </SafeAreaView>
